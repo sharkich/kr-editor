@@ -5,7 +5,8 @@
   "scripts": {
     "start": "webpack-dev-server --hot --open",
     "clear": "rm -rf ./src/ANTLR",
-    "antlr4ts": "yarn clear && antlr4ts ./TodoLangGrammar.g4 -o ./src/ANTLR"
+    "fix": "eslint ./src --fix",
+    "antlr4ts": "yarn clear && antlr4ts KRLangGrammar.g4 -o ./src/ANTLR && yarn fix"
   },
   "author": "Artem Koziar",
   "license": "ISC",

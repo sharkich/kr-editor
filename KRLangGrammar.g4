@@ -1,4 +1,4 @@
-grammar TodoLangGrammar;
+grammar KRLangGrammar;
 
 todoExpressions : (addExpression)* (completeExpression)*;
 
