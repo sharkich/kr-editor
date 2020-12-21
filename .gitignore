@@ -3,3 +3,4 @@ parser
 node_modules
 src/ANTLR
 ANTLR
+.idea
